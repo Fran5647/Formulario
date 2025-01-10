@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario Inscripción alumno Dual</h1>
+    <form action="Registro_Correcto.html">
+        <fieldset name="Datos Personales" style="width: 50%;"><legend>Datos Personales</legend>
+            <label for="name">Nombre</label>
+            <input type="text" name="name"><br>
+            <label for="surname">Apellidos</label>
+            <input type="text" name="surname"><br>
+            <label for="age">Edad</label>
+            <input type="number" name="age"><br>
+            <label for="sex">Sexo</label>
+            <input type="radio" name="sexo">Masculino<br>
+            <input type="radio" name="sexo">Femenino<br>
+            <input type="radio" name="sexo">No Binario<br>
+        </fieldset>
+        <fieldset name="Otros"style="width: 50%;"><legend>Otros</legend>
+            <label for="provincia">Provincia</label>
+            <select name="provincia" id="">
+                <option value="">Sevilla</option>
+                <option value="">Cádiz</option>
+                <option value="">Málaga</option>
+                <option value="">Huelva</option>
+                <option value="">Córdoba</option>
+            </select><br>
+            <label for="file">Currículum</label>
+            <input type="file"><br>
+            <label for="observaciones">Observaciones</label>
+            <textarea name="observaciones"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
