@@ -1,0 +1,22 @@
+body{
+    background-color: lightblue;
+    color: blueviolet;
+}
+h1{
+    margin-left: 33.5%;
+}
+fieldset{
+    width: 50%;
+    background-color: lightgreen;
+}
+
+form{
+    margin-left: 30%;
+}
+#submit{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+label, input{
+    margin: 5px;
+}

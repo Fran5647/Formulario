@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <h1>Formulario Inscripción alumnado Dual</h1>
     <form action="Registro_Correcto.html">
-        <fieldset name="Datos Personales" style="width: 50%;"><legend>Datos Personales</legend>
+        <fieldset name="Datos Personales"><legend>Datos Personales</legend>
             <label for="name">Nombre</label>
             <input type="text" name="name" required><br>
             <label for="surname">Apellidos</label>
@@ -20,7 +21,7 @@
             <input type="radio" name="sexo">Femenino<br>
             <input type="radio" name="sexo">No Binario<br>
         </fieldset>
-        <fieldset name="Otros"style="width: 50%;"><legend>Otros</legend>
+        <fieldset name="Otros"><legend>Otros</legend>
             <label for="provincia">Provincia</label>
             <select name="provincia" id="">
                 <option value="">Sevilla</option>
@@ -34,7 +35,7 @@
             <label for="observaciones">Observaciones</label>
             <textarea name="observaciones"></textarea>
         </fieldset>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" id="submit">
     </form>
 </body>
 </html>
